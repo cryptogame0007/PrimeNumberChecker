@@ -1,0 +1,8 @@
+  int number = scanner.nextInt();
+
+        boolean isPrime = checkPrime(number);
+        if (isPrime) {
+            System.out.println("Число является простым!");
+        } else {
+            System.out.println("Число не является простым.");
+        }
